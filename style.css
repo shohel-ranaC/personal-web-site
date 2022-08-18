@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header-area {
+  display: flex;
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-description {
+  margin: 200px 0 0 200px;
+  width: 50%;
+  padding: 20px;
+}
+.header-description span {
+  color: rgb(255, 0, 106);
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.header-description h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header-description p {
+  color: rgb(145, 139, 139);
+}
+button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: rgb(255, 0, 106);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header-image {
+  width: 50%;
+  padding: 20px;
+}
+.header-image img {
+  width: 90%;
+  height: 80%;
+  margin-top: 20px;
+}
+/* -- -------Biography CSS section starts here-------- --*/
+.Biography-area {
+  margin-top: 50px;
+  display: flex;
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.biography-description {
+  margin: 180px 200px 0 50px;
+  width: 50%;
+  padding: 20px;
+}
+.biography-description h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.biography-description p {
+  color: rgb(145, 139, 139);
+}
+.biography-image {
+  width: 50%;
+  padding: 20px;
+  margin: 100px 0 0 100px;
+}
+.biography-image img {
+  width: 90%;
+  height: 80%;
+  margin-top: 20px;
+}
+/* -- -------My Latest Work CSS section starts here-------- --*/
+.work-area {
+  margin-top: 100px;
+  /* display: flex; */
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work-area h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.work-container {
+  display: flex;
+  margin-top: 60px;
+}
+.work-container div img {
+  width: 380px;
+  height: 330px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+/* <!-- -------Contact section CSS starts here-------- --> */
+.contact-area {
+  margin-top: 100px;
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.contact-area h2 {
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.contact-area h3 {
+  margin-top: 100px;
+}
+.contact-area h3 span {
+  color: gray;
+  font-size: 15px;
+}
+.contact-area p {
+  margin-top: 60px;
+}
+.contact {
+  width: 50%;
+  height: 170px;
+  margin-left: 320px;
+  background-color: rgb(255, 0, 106);
+  border: none;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+.contact p {
+  color: white;
+}
+.contact .email {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+/* -------------footer section start here--------- */
+.footer-area {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-area p {
+  color: gray;
+}
